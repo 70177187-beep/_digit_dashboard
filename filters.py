@@ -151,7 +151,7 @@ def sidebar_filters(df):
 
     # SAVE CHARTS
 
-    st.session_state["chart_options"] = chart_options
+    
 
     # FILTER DATA
 
