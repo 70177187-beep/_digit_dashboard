@@ -37,7 +37,7 @@ def sidebar_filters(df):
 
     /* SIDEBAR TITLE */
 
-    ..sidebar-title {
+    .sidebar-title {
 
     color: #7DD3FC;
 
@@ -120,22 +120,22 @@ def sidebar_filters(df):
     # SIDEBAR TOP CONTAINER
 
     st.sidebar.markdown("""
-    <div class="sidebar-container">
+<div class="sidebar-container">
 
-        <div class="sidebar-title">
-            🔢 Digit Recognition Dashboard
-        </div>
-
-        <div class="sidebar-subtitle">
-            Professional Machine Learning Analytics
-        </div>
-
-        <div class="filter-title">
-            Dashboard Filters
-        </div>
-
+    <div class="sidebar-title">
+        🔢 Digit Recognition Dashboard
     </div>
-    """, unsafe_allow_html=True)
+
+    <div class="sidebar-subtitle">
+        Professional Machine Learning Analytics
+    </div>
+
+    <div class="filter-title">
+        Dashboard Filters
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
 
     # DIGIT FILTER
 
