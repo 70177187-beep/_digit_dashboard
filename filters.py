@@ -147,18 +147,7 @@ def sidebar_filters(df):
 
     # EXTRA CHART FILTER
 
-    chart_options = st.sidebar.multiselect(
-        "Select Additional Charts",
-        [
-            "All Charts",
-            "Histogram",
-            "Box Plot",
-            "Heatmap",
-            "Area Chart",
-            "Count Plot",
-            "Violin Plot"
-        ]
-    )
+    
 
     # SAVE CHARTS
 
