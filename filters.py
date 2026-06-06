@@ -119,23 +119,9 @@ def sidebar_filters(df):
 
     # SIDEBAR TOP CONTAINER
 
-    st.sidebar.markdown("""
-<div class="sidebar-container">
-
-    <div class="sidebar-title">
-        🔢 Digit Recognition Dashboard
-    </div>
-
-    <div class="sidebar-subtitle">
-        Professional Machine Learning Analytics
-    </div>
-
-    <div class="filter-title">
-        Dashboard Filters
-    </div>
-
-</div>
-""", unsafe_allow_html=True)
+   st.sidebar.markdown("# 🔢 Digit Recognition Dashboard")
+st.sidebar.caption("Professional Machine Learning Analytics")
+st.sidebar.markdown("### Dashboard Filters")
     st.sidebar.success("FILTERS.PY UPDATED")
     # DIGIT FILTER
 
