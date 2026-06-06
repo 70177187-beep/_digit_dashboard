@@ -136,7 +136,7 @@ def sidebar_filters(df):
 
 </div>
 """, unsafe_allow_html=True)
-
+    st.sidebar.success("FILTERS.PY UPDATED")
     # DIGIT FILTER
 
     selected_digits = st.sidebar.multiselect(
